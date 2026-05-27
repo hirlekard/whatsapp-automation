@@ -56,15 +56,12 @@ def run():
     time.sleep(25)
 
     groups = [
-        "120363408417477198@g.us",
-        "120363427181465444@g.us"
+        "<group#>@g.us", # replace this with the groups where members need to be added
+         "<group#>@g.us",
     ]
 
     members = [
-        "6588760367@c.us",
-        "6590827203@c.us",
-        "6598807981@c.us",
-        "6581897501@c.us"
+        "<phone#>@c.us" #replace this with phone number to be added to the group/community
     ]
 
     for g in groups:
